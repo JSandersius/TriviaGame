@@ -1,3 +1,5 @@
+
+
 var timeLeft = 30;
 var elem = document.getElementById("timeRemainingBox");
 
@@ -12,7 +14,12 @@ function countdown() {
   } else {
     elem.innerHTML = timeLeft + ' seconds remaining';
     timeLeft--;
-
-
   }
 }
+
+
+
+
+
+
+
