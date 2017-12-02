@@ -35,7 +35,7 @@ body {
 
 #questionDivBox {
 	top: 20px;
-	height: 700px;
+	height: auto;
 	background-image: url(../images/kalesalad.png);
 	position: relative;
 	text-align :center;
