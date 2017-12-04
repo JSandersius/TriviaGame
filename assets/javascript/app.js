@@ -1,12 +1,17 @@
 
 
-var timeLeft = 30;
+
+
+var timeLeft = 10;
+
 var elem = document.getElementById("timeRemainingBox");
 
+// $("#timeRemainingBox").append("<div>'sorry, out of time'</div>")
+
+$("input[name='timeRemainingBox']").val(elem);
 
 
 var timerId = setInterval(countdown, 1000);
-
 function countdown() {
   if (timeLeft == 0) {
     setTimeout(timerId);
@@ -17,6 +22,33 @@ function countdown() {
   }
 }
 
+function doSomething() {
+    $("#timeRemainingBox").append("<div>Sorry, out of time</div>")
+// 	$.alert('sorry, out of time');
+//          clearInterval(countdown);
+}
+
+
+// document.getElementById("MySelectBox").onchange = function() {
+//     document.getElementById("triesleft").innerText = "You have " + triesLeft + " tries left.";
+
+    ////// document.getElementById("timeRemainingBox").style.display = "block";
+    // triesleft--;
+// $("#startClock").click( function(){
+//    var counter = 60;
+//    setInterval(function() {
+//      counter--;
+//       if (counter >= 0) {
+//          span = document.getElementById("timeRemainingBox");
+//          span.innerHTML = counter;
+//       }
+//       if (counter === 0) {
+//          alert('sorry, out of time');
+//          clearInterval(counter);
+//        }
+//      }, 1000);
+// });
+//////////////////////////////fuck\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
  $.fn.every = function(callback) {
   var numElements = this.length;
