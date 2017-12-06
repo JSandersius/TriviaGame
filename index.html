@@ -1,61 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<!-- link to jquery -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!-- link to bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- link to jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- link to bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-	
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
-				<div id="mainBox">
-		
-							<div class="col-lg-12 col-md-12 col-sm-12">
-								<div id="titleBox">
-									The Beatles Trivia!
-								</div>
-							</div>
-			
-								<div class="col-lg-12 col-md-12 col-sm-12">
-									<div id="timeRemainingBox"></div>
-								</div>
-									
-									<div class="col-lg-12 col-md-12 col-sm-12">
-									<div id="questionDivBox">
-										
-
-	
-	<form action="/success-page" class="simple-quiz">
-
-	
-      <h3>On what CBS show did the Beatles make their debut in the United States? </h3>
-      
-      <label>
-        <input type="radio" name="answers[1]" value="A">
-        The Dick Cavett show
-      </label>
-      
-      <label>
-        <input type="radio" name="answers[1]" value="B" data-correct>
-        The Ed Sullivan Show
-      </label>
-
-      <label>
-        <input type="radio" name="answers[1]" value="C">
-        The Jack Par Show
-      </label>		
-
-       <label>
-        <input type="radio" name="answers[1]" value="D">
-        <!--  The Tonight Show With Johnny Carson,
-      </label>			
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
+                <div id="mainBox">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div id="titleBox">
+                            The Beatles Trivia!
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div id="timeRemainingBox"></div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div id="questionDivBox">
+                            <form action="/success-page" class="simple-quiz">
+                                <h3>On what CBS show did the Beatles make their debut in the United States? </h3>
+                                <label>
+                                    <input type="radio" name="answers[1]" value="A"> The Dick Cavett show
+                                </label>
+                                <label>
+                                    <input type="radio" name="answers[1]" value="B" data-correct> The Ed Sullivan Show
+                                </label>
+                                <label>
+                                    <input type="radio" name="answers[1]" value="C"> The Jack Par Show
+                                </label>
+                                <label>
+                                    <input type="radio" name="answers[1]" value="D">
+                                     The Tonight Show With Johnny Carson,
+      </label>      
 
       <h3>Who was the youngest of the four of The Beatles?  </h3>
       
@@ -72,18 +58,18 @@
       <label>
         <input type="radio" name="answers[2]" value="C" data-correct>
         Goerge Harrison
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[2]" value="D">
          Ringo Star
-      </label>							
+      </label>              
 
-		 <h3>What is the most covered song by The Beatles?  </h3>
+     <h3>What is the most covered song by The Beatles?  </h3>
       
       <label>
         <input type="radio" name="answers[3]" value="A">
-      	Blackbird
+        Blackbird
       </label>
       
       <label>
@@ -94,18 +80,18 @@
       <label>
         <input type="radio" name="answers[3]" value="C">
         Let It Be
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[3]" value="D">
          And I Love Her
-      </label>		
+      </label>    
 
-      	 <h3>What recording effect was accidentally discovered and poplularized at Abbey Road Studios during the production of  Revolver? </h3>
+         <h3>What recording effect was accidentally discovered and poplularized at Abbey Road Studios during the production of  Revolver? </h3>
       
       <label>
         <input type="radio" name="answers[4]" value="A" data-correct>
-      	Back-Masking
+        Back-Masking
       </label>
       
       <label>
@@ -116,18 +102,18 @@
       <label>
         <input type="radio" name="answers[4]" value="C">
         Overdrive
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[4]" value="D">
          Tape-Delay 
-      </label>		
-	
-	  	 <h3>What is the name of the club in Liverpool where the Fab Four played early on in their career? </h3>
+      </label>    
+  
+       <h3>What is the name of the club in Liverpool where the Fab Four played early on in their career? </h3>
       
       <label>
         <input type="radio" name="answers[5]" value="A">
-      	The Cave
+        The Cave
       </label>
       
       <label>
@@ -138,18 +124,18 @@
       <label>
         <input type="radio" name="answers[5]" value="C">
         The Idra Club
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[5]" value="D" data-correct>
          The Cavern Club 
-      </label>		
+      </label>    
 
-			 <h3>What artist is credited to with intorducing The Beatles to marijuana? </h3>
+       <h3>What artist is credited to with intorducing The Beatles to marijuana? </h3>
       
       <label>
         <input type="radio" name="answers[6]" value="A">
-      	Bob Dylan
+        Bob Dylan
       </label>
       
       <label>
@@ -160,18 +146,18 @@
       <label>
         <input type="radio" name="answers[6]" value="C">
          Mick Jagger
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[6]" value="D" data-correct>
          Keith Moon
-      </label>		
+      </label>    
 
-			 <h3>What artist is credited to with introducing The Beatles to marijuana? </h3>
+       <h3>What artist is credited to with introducing The Beatles to marijuana? </h3>
       
       <label>
         <input type="radio" name="answers[7]" value="A"  data-correct>
-      	Bob Dylan
+        Bob Dylan
       </label>
       
       <label>
@@ -182,12 +168,12 @@
       <label>
         <input type="radio" name="answers[7]" value="C">
          Mick Jagger
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[7]" value="D">
          Keith Moon
-      </label>		
+      </label>    
 
       <h3>What Beatle played rythm guitar? </h3>
       
@@ -204,14 +190,14 @@
       <label>
         <input type="radio" name="answers[8]" value="C">
         Goerge Harrison
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[8]" value="D">
          Ringo Star
-      </label>			
-	
-			 <h3>Who was attacked with a knife in his Los Angeles home and saved by his wife with a fireplace poker? </h3>
+      </label>      
+  
+       <h3>Who was attacked with a knife in his Los Angeles home and saved by his wife with a fireplace poker? </h3>
       
        <label>
         <input type="radio" name="answers[9]" value="A">
@@ -226,14 +212,14 @@
       <label>
         <input type="radio" name="answers[9]" value="C" data-correct>
         Goerge Harrison
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[9]" value="D">
          Ringo Star
-      </label>							
+      </label>              
 
-		 <h3>Which song was the favorite Lennon-Mcartney song of Frank Sinatra’s actually written by George Harrison? </h3>
+     <h3>Which song was the favorite Lennon-Mcartney song of Frank Sinatra’s actually written by George Harrison? </h3>
       
        <label>
         <input type="radio" name="answers[10]" value="A" data-correct>
@@ -248,14 +234,14 @@
       <label>
         <input type="radio" name="answers[10]" value="C">
         If I Needed Someone
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[10]" value="D">
          Don’t Bother Me 
-      </label>				
+      </label>        
 
-      	 <h3>What person requested to hear the album before consenting to have his/her likeness depicted on Sgt. Pepper? </h3>
+         <h3>What person requested to hear the album before consenting to have his/her likeness depicted on Sgt. Pepper? </h3>
       
        <label>
         <input type="radio" name="answers[11]" value="A" data-correct>
@@ -270,14 +256,14 @@
       <label>
         <input type="radio" name="answers[11]" value="C">
         Albert Einstein
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[11]" value="D">
         Bob Dylan
-      </label>						
+      </label>            
 
-	 <h3>What Beatles album inspired Brian Wilson of the Beach Boys to make the album Pet Sounds? </h3>
+   <h3>What Beatles album inspired Brian Wilson of the Beach Boys to make the album Pet Sounds? </h3>
       
        <label>
         <input type="radio" name="answers[12]" value="A" data-correct>
@@ -292,12 +278,12 @@
       <label>
         <input type="radio" name="answers[12]" value="C">
         Revolver
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[12]" value="D">
         Abbey Road
-      </label>			
+      </label>      
 
        <h3>Who spread widespread distain for the band by sayng “we’re more popular than Jesus..”? </h3>
       
@@ -314,12 +300,12 @@
       <label>
         <input type="radio" name="answers[13]" value="C">
         Goerge Harrison
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[13]" value="D">
          Ringo Star
-      </label>	
+      </label>  
 
       <h3>Who is the drummer that was dropped in favor of Ringo Star? </h3>
       
@@ -336,14 +322,14 @@
       <label>
         <input type="radio" name="answers[14]" value="C">
         Keith Moon
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[14]" value="D">
         Charlie Watts
-      </label>				
+      </label>        
 
-	<h3>Who was once married to a one legged woman? </h3>
+  <h3>Who was once married to a one legged woman? </h3>
       
         <label>
         <input type="radio" name="answers[15]" value="A">
@@ -358,12 +344,12 @@
       <label>
         <input type="radio" name="answers[15]" value="C">
         Goerge Harrison
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[15]" value="D">
          Ringo Star
-      </label>		
+      </label>    
 
       <h3>What Beatle played with Elton John at Madison Square Garden? </h3>
       
@@ -380,12 +366,12 @@
       <label>
         <input type="radio" name="answers[16]" value="C">
         Goerge Harrison
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[16]" value="D">
          Ringo Star
-      </label>		
+      </label>    
 
       <h3>What Beatle penned “Ebony and Ivory” with Michael Jackon? </h3>
       
@@ -402,12 +388,12 @@
       <label>
         <input type="radio" name="answers[17]" value="C">
         Goerge Harrison
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[17]" value="D">
          Ringo Star
-      </label>		
+      </label>    
 
       <h3>What track did Eric Clapton play on? </h3>
       
@@ -424,12 +410,12 @@
       <label>
         <input type="radio" name="answers[18]" value="C" data-correct>
         While My Guitar Gently Weeps
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[18]" value="D">
-         Come Together	
-         </label>	
+         Come Together  
+         </label> 
 
          <h3>What non-sensical song was written as a reaction to a story of Beatles lyrics being read in an Literature Class?  </h3>
       
@@ -446,12 +432,12 @@
       <label>
         <input type="radio" name="answers[19]" value="C">
         Yellow Submarine
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[19]" value="D">
         Bungalow Bill
-         </label>	
+         </label> 
 
          <h3>What Beatle played the bass? </h3>
       
@@ -468,12 +454,12 @@
       <label>
         <input type="radio" name="answers[20]" value="C">
         Goerge Harrison
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[20]" value="D">
          Ringo Star
-      </label>		
+      </label>    
 
        <h3>What is the longest running, ranked #1 Beatles song on the Billboard Charts?  </h3>
       
@@ -490,20 +476,16 @@
       <label>
         <input type="radio" name="answers[21]" value="C">
         Cant Buy Me Love
-      </label>		
+      </label>    
 
        <label>
         <input type="radio" name="answers[21]" value="D" data-correct>
          Hey Jude 
-      </label>		 -->
-
-
-
-									</div>
-								</div>
-
-
-<!-- link to external javascript file -->
-<script type= "text/javascript" src="assets/javascript/app.js"></script>	
+      </label>    
+                        </div>
+                    </div>
+                    <!-- link to external javascript file -->
+                    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
